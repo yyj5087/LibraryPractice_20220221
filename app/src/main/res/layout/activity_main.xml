@@ -15,6 +15,7 @@
         android:layout_height="wrap_content">
 
         <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imgProfile"
             android:layout_width="120dp"
             android:src="@drawable/yuna"
             android:scaleType="centerCrop"
