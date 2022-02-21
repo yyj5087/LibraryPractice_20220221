@@ -14,7 +14,7 @@
         android:gravity="center"
         android:layout_height="wrap_content">
 
-        <ImageView
+        <de.hdodenhof.circleimageview.CircleImageView
             android:layout_width="120dp"
             android:src="@drawable/yuna"
             android:scaleType="centerCrop"
