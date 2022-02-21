@@ -10,53 +10,58 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:orientation="vertical"
+        android:layout_height="wrap_content"
         android:gravity="center"
-        android:layout_height="wrap_content">
+        android:orientation="vertical">
 
         <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/imgProfile"
             android:layout_width="120dp"
-            android:src="@drawable/yuna"
-            android:scaleType="centerCrop"
             android:layout_height="120dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/yuna"
             app:civ_border_color="@color/black"
-            app:civ_border_width="2dp"/>
+            app:civ_border_width="2dp" />
+
         <TextView
-            android:text="김연아"
-            android:layout_marginTop="10dp"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="김연아" />
 
     </LinearLayout>
+
     <TextView
-        android:text="전화 연결"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"/>
+        android:layout_marginTop="20dp"
+        android:text="전화 연결" />
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="010-3333-7777"
             android:textColor="@color/black"
-            android:textStyle="bold"
-            android:textSize="17sp"/>
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
         <TextView
-            android:layout_weight="1"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
         <Button
             android:id="@+id/btnCall"
-            android:text="전화 연결(CALL)"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:text="전화 연결(CALL)" />
 
     </LinearLayout>
-
 
 
 </LinearLayout>
